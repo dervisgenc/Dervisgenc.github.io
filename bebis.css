@@ -1,0 +1,57 @@
+body {
+    background: #000;
+}
+
+.parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: visible;
+}
+
+.container {
+
+    position: relative;
+    width: 70%;
+    height: 50%;
+    margin: auto;
+    z-index: 1;
+}
+
+
+.video {
+    width: 40%;
+    /* reduce the width of the video container */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    font-family: serif;
+    margin-bottom: 1em;
+}
+
+button {
+    padding: 1em 2em;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    background: #000;
+    color: #fff;
+    border: 2px solid #fff;
+    transition: transform 0.2s ease-in-out;
+    position: relative;
+}
+
+button:hover {
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+}
